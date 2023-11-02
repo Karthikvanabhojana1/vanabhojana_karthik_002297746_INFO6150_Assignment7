@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginpage {
+    text-align: center;
+    background-color: #444; /* Slightly lighter background color */
+    border: 2px solid #007BFF; /* Border color for the form */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h2 {
+    color: #007BFF; /* Heading text color */
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+label {
+    color: #fff; /* Label text color */
+    justify-content: left;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 8px;
+    border: 1px solid #555; /* Input border color */
+    background-color: #555; /* Input background color */
+    color: #fff; /* Input text color */
+}
+
+button {
+    background-color: gray;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: not-allowed;
+    transition: background-color 0.3s;
+}
+
+
+
+/* button:hover {
+    background-color: #0056b3;
+} */
+.errorusename {
+    color: red;
+    font-weight: bold;
+}
+.errorpass {
+    color: red;
+    font-weight: bold;
+}
+.erroremail {
+    color: red;
+    font-weight: bold;
+}
+.errorcpass{
+    color: red;
+    font-weight: bold;
+
+}
+
+
+
+div {
+    margin: 10px 0;
+}
+
+.inputfield1, .inputfield {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #fff; /* Label text color */
+}
+
+input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #555; /* Input border color */
+    background-color: #444; /* Input background color */
+    color: #fff; /* Input text color */
+}
+
+.operation {
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.operation :hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+.result {
+    text-align: center;
+}
+
+#res {
+    padding: 8px;
+    border: 1px solid #555; /* Result input border color */
+    background-color: #444; /* Result input background color */
+    color: #fff; /* Result input text color */
+}
+
+#buttonName {
+    display: flex;
+    justify-content: center; /* Center-align the buttons */
+    align-items: center;
+}
+#errornum2{
+    color: red;
+}
+#errornum1{
+    color: red;
+}
+.welcome{
+    align-self: start;
+}
+h3{
+    color: blanchedalmond;
+}

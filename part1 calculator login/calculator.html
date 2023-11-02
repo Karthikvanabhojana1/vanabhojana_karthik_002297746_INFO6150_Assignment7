@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+
+        <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"> </script>
+
+</head>
+<body>
+
+    <div class="welcome">
+        Hello <span id="populatetext"></span>
+    </div>
+    <h3>Calculator</h3>
+
+        <div class="inputfield1">
+            <label for="num1">Number1</label>
+            <input type="num1" id="num1" name="num1" placeholder="Enter your Number" required>
+        </div>
+        <div id="errornum1"></div>
+
+        <div class="inputfield">
+            <label for="num2">Number2</label>
+            <input type="num2" id="num2" name="num2" placeholder="Enter your Number" required>
+        </div>
+        <div id="errornum2"></div>
+<div id="buttonName" >
+    <button class="operation"  id="add">Add</button>
+    <button class="operation"  id="subtract">Subtract</button>
+    <button class="operation"  id="divide">Divide</button>
+    <button class="operation"  id="multiply">Multiply</button>
+</div>
+       
+        <div class="result">
+            <label for="result">Result</label><br>
+            <br>
+<input type="text" name="res" id="res" readonly>
+        </div>
+
+        <script src="./cal.js"></script>
+
+</body>
+</html>

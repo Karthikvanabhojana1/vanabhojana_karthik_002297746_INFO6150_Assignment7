@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./login.css">
+    <script type = "text/javascript" 
+    src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+
+ </script>
+   
+</head>
+<body>
+    <div class="loginpage">
+        <h2>Log In</h2>
+        <form action="./calculator.html" method="get">
+            <div class="inputfield">
+                <label for="email">Email Id</label>
+                <input type="txt" id="email" name="email" placeholder="Enter your email" >
+            </div>
+            <div class="erroremail">  </div>
+            <div class="inputfield">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username"  >
+            </div>
+            <div class="errorusename">  </div>
+
+            <div class="inputfield">
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <div class="errorpass">  </div>
+
+               
+            <div class="inputfield">
+                <label for="cpassword">Confirm Password</label>
+                <input type="text" id="cpassword" name="cpassword" placeholder="Enter your password">
+            </div>
+            <div class="errorcpass"> </div>
+
+
+            <button id="submitbutton" disabled>Login</button>
+
+        </form>
+    </div>
+    <script src="./scrip.js"></script>
+</body>
+</html>
